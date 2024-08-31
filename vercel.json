@@ -1,0 +1,11 @@
+{
+    "routes" : [
+        { "src" : "/", "destination" : "/login" },
+        { "src" : "/register", "destination" : "/register" },
+        { "src" : "/notes", "destination" : "/notes" },
+        { "src" : "/notes/:id", "destination" : "/notes/:id" },
+        { "src" : "/create", "destination" : "/create"},
+        { "src" : "/notes/archived", "destination" : "/notes/archived"}
+
+    ]
+}
